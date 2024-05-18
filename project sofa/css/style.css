@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Vazir1";
+  src: url("../fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: 
+    url("../fonts/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff") format("woff"),
+    url("../fonts/Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+body {
+  font-family: "Vazir" !important;
+}
+
+.underline {
+  width: 3rem;
+  height: 1.5px;
+  background-color: #887949;
+  margin: auto;
+  display: none;
+}
+.maincolor {
+  color: #3a321c;
+}
+.text {
+  color: #7e7559;
+}
+
+.btn-primary {
+  background-color: #fae7c9;
+  color: #7e7559;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #7e7559;
+  color: #fae7c9;
+}
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  border-radius: 1rem;
+}
+.img-miz {
+  padding: 10px;
+  padding-bottom: 0;
+  position: relative;
+}
+.darsad {
+  font-family:"Vazir1" !important ;
+  background: rgb(1, 182, 1);
+  padding: 0.5rem 0.2rem 0.5rem 0.2rem; 
+  border-radius: 100%;
+width: 38px;
+font-size: small;
+position: absolute;
+top: 20px;
+left: 20px;
+color: white;
+text-align: center;
+}
+
+.btn1{
+  background-color: #3a321c;
+  color: #fae7c9;
+  border-radius: 17px;
+}
